@@ -7,6 +7,38 @@ public class Vehiculo {
 
     public Vehiculo(){}
     
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getIdentification() {
+        return identification;
+    }
+
+    public void setIdentification(int identification) {
+        this.identification = identification;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public Vehiculo(String make, String model, int identification, String color) {
         this.make = make;
         this.model = model;

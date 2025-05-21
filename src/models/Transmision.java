@@ -9,6 +9,56 @@ public class Transmision {
     public Transmision() {
     }
 
+    
+
+    public String getTipo() {
+        return tipo;
+    }
+
+
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+
+
+    public int getMarchas() {
+        return marchas;
+    }
+
+
+
+    public void setMarchas(int marchas) {
+        this.marchas = marchas;
+    }
+
+
+
+    public String getTraccion() {
+        return traccion;
+    }
+
+
+
+    public void setTraccion(String traccion) {
+        this.traccion = traccion;
+    }
+
+
+
+    public String getEstado() {
+        return estado;
+    }
+
+
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+
+
     public Transmision(String tipo, int marchas, String traccion, String estado) {
         this.tipo = tipo;
         this.marchas = marchas;
