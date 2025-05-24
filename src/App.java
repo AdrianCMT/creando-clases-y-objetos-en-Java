@@ -547,7 +547,6 @@ public class App {
         System.out.println("Ubicación: " + miSensor.getUbicacion());
         System.out.println("Estado: " + miSensor.getEstado());
         System.out.println("Marca: " + miSensor.getMarca());
-        
 
         System.out.println("--------------------------------------------------");
         
